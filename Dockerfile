@@ -1,4 +1,4 @@
-FROM golang
+FROM golang:1.8-alpine
 
 RUN chsh -s /bin/bash
 RUN mkdir /app
